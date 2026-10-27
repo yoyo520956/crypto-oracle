@@ -16,7 +16,7 @@ name: Train Oracle
 jobs:
   train:
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,15 +30,17 @@ jobs:
         run: |
           FAST=""
           if [ "${{ inputs.fast }}" = "true" ]; then FAST="--fast"; fi
-          python train.py --top "${{ inputs.top || '50' }}" $FAST
+          python train.py --top "${{ inputs.top || '50' }}" --years 2 $FAST
       - name: summary
+        if: always()
         run: |
           echo "## Metrics" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          head -25 metrics.csv >> $GITHUB_STEP_SUMMARY
+          head -25 metrics.csv >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "no metrics yet" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          cat meta.json >> $GITHUB_STEP_SUMMARY
+          cat meta.json >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: oracle-models
           path: |

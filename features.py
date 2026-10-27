@@ -17,6 +17,9 @@ def load_kline_csv(path):
     for c in NUM_COLS:
         df[c] = df[c].astype(np.float32)
     df["open_time"] = df["open_time"].astype(np.int64)
+    # 币安 2025-01 起新文件时间戳改为微秒，统一折算成毫秒（否则跨文件混排+窗口计算全错）
+    if len(df) and df["open_time"].max() > 100_000_000_000_000:
+        df["open_time"] = df["open_time"] // 1000
     return df
 
 
