@@ -9,6 +9,10 @@ name: Train Oracle
         description: fast debug run
         type: boolean
         default: false
+      full_history:
+        description: 下载全历史(2017起)
+        type: boolean
+        default: false
   schedule:
     - cron: "0 4 * * 1"   # 每周一 UTC04:00 自动重训
   push:
@@ -30,7 +34,9 @@ jobs:
         run: |
           FAST=""
           if [ "${{ inputs.fast }}" = "true" ]; then FAST="--fast"; fi
-          python train.py --top "${{ inputs.top || '50' }}" --years 2 $FAST
+          FULL=""
+          if [ "${{ inputs.full_history }}" = "true" ]; then FULL="--full-history"; fi
+          python train.py --top "${{ inputs.top || '50' }}" --years 2 $FAST $FULL
       - name: summary
         if: always()
         run: |

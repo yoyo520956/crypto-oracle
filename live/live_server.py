@@ -46,6 +46,8 @@ def klines_df(sym, interval, limit):
     for c in ft.NUM_COLS:
         df[c] = df[c].astype(np.float32)
     df["open_time"] = df["open_time"].astype(np.int64)
+    if len(df) and df["open_time"].max() > 100_000_000_000_000:
+        df["open_time"] = df["open_time"] // 1000
     return df
 
 
@@ -64,10 +66,11 @@ def ticker_loop():
 
 def refresh_cache(sym):
     try:
-        if f"{sym}_1m" in MODELS:
+        msets = MODELS.get(sym, {})
+        if "1m" in msets:
             CACHE[(sym, "1m")] = klines_df(sym, "1m", 300)
-        if f"{sym}_1s" in MODELS:
-            CACHE[(sym, "1s")] = ft.aggregate_bars(klines_df(sym, "1s", 900), 4)
+        if "1s" in msets:
+            CACHE[(sym, "1s")] = ft.aggregate_bars(klines_df(sym, "1s", 1000), 8)
     except Exception as e:
         log(f"cache {sym}: {e}")
 
@@ -95,13 +98,14 @@ def infer_loop():
             row = {"price": px}
             for itv, bundle in msets.items():
                 df = CACHE.get((sym, itv))
-                if df is None or len(df) < 200:
+                if df is None or len(df) < 60:
                     continue
                 d = df.copy()
                 i = len(d) - 1
-                d.loc[i, "close"] = px                     # partial bar 贴最新价
-                d.loc[i, "high"] = max(d.loc[i, "high"], px)
-                d.loc[i, "low"] = min(d.loc[i, "low"], px)
+                pxf = np.float32(px)                 # pandas3 不允许 float64 写入 float32 列
+                d.loc[i, "close"] = pxf             # partial bar 贴最新价
+                d.loc[i, "high"] = max(d.loc[i, "high"], pxf)
+                d.loc[i, "low"] = min(d.loc[i, "low"], pxf)
                 X = ft.make_features(d)
                 p = float(bundle["model"].predict_proba(
                     X.iloc[[-1]].astype(np.float32))[0][1])

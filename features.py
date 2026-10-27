@@ -8,7 +8,8 @@ import pandas as pd
 KLINES_COLS = ["open_time", "open", "high", "low", "close", "volume",
                "close_time", "qav", "trades", "tbb", "tbq", "ignore"]
 
-NUM_COLS = ["open", "high", "low", "close", "volume", "qav", "trades"]
+NUM_COLS = ["open", "high", "low", "close", "volume", "qav", "trades",
+            "tbb", "tbq"]
 
 
 def load_kline_csv(path):
