@@ -1,1 +1,117 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIi5biB5a6J5Y6G5Y+y5pWw5o2u5LiL6L295Zmo77yIZGF0YS5iaW5hbmNlLnZpc2lvbu+8jOWbveWGheWPr+i+vu+8ieOAggpDSSDnq6/lhajph4/mi4nlj5bvvJvmiYvmnLrnq6/lj6rmi4nmnIDov5Hnqpflj6PlgZrlrp7ml7bnvJPlrZjjgIIiIiIKaW1wb3J0IGlvCmltcG9ydCBvcwppbXBvcnQgdGltZQppbXBvcnQgemlwZmlsZQppbXBvcnQgcmVxdWVzdHMKCkJBU0UgPSAiaHR0cHM6Ly9kYXRhLmJpbmFuY2UudmlzaW9uL2RhdGEvc3BvdC9tb250aGx5L2tsaW5lcyIKVUEgPSB7IlVzZXItQWdlbnQiOiAiTW96aWxsYS81LjAifQoKCmRlZiBtb250aF9saXN0KGZpcnN0X3llYXI9MjAxNywgdW50aWw9Tm9uZSk6CiAgICAiIiLnlJ/miJAgWzIwMTctMDEgLi4g5LiK5pyIXSDnmoQgKHksIG0pIOWIl+ihqOOAgiIiIgogICAgaW1wb3J0IGRhdGV0aW1lCiAgICB0b2RheSA9IHVudGlsIG9yIGRhdGV0aW1lLmRhdGUudG9kYXkoKQogICAgeSwgbSA9IHRvZGF5LnllYXIsIHRvZGF5Lm1vbnRoIC0gMQogICAgaWYgbSA9PSAwOgogICAgICAgIHksIG0gPSB5IC0gMSwgMTIKICAgIG91dCA9IFtdCiAgICBjeSwgY20gPSBmaXJzdF95ZWFyLCAxCiAgICB3aGlsZSAoY3ksIGNtKSA8PSAoeSwgbSk6CiAgICAgICAgb3V0LmFwcGVuZCgoY3ksIGNtKSkKICAgICAgICBjbSArPSAxCiAgICAgICAgaWYgY20gPT0gMTM6CiAgICAgICAgICAgIGN5LCBjbSA9IGN5ICsgMSwgMQogICAgcmV0dXJuIG91dAoKCmRlZiB6aXBfdXJsKHN5bWJvbCwgaW50ZXJ2YWwsIHksIG0pOgogICAgcmV0dXJuIGYie0JBU0V9L3tzeW1ib2x9L3tpbnRlcnZhbH0ve3N5bWJvbH0te2ludGVydmFsfS17eTowNGR9LXttOjAyZH0uemlwIgoKCmRlZiBmZXRjaF9tb250aChzeW1ib2wsIGludGVydmFsLCB5LCBtLCByZXRyaWVzPTMsIHRpbWVvdXQ9MTIwKToKICAgICIiIuS4i+i9veWNleaciHppcOW5tuino+aekOS4uiBmbG9hdDMyIERhdGFGcmFtZe+8mzQwNOi/lOWbnk5vbmXjgIIiIiIKICAgIHVybCA9IHppcF91cmwoc3ltYm9sLCBpbnRlcnZhbCwgeSwgbSkKICAgIGZvciBpIGluIHJhbmdlKHJldHJpZXMpOgogICAgICAgIHRyeToKICAgICAgICAgICAgciA9IHJlcXVlc3RzLmdldCh1cmwsIGhlYWRlcnM9VUEsIHRpbWVvdXQ9dGltZW91dCkKICAgICAgICAgICAgaWYgci5zdGF0dXNfY29kZSA9PSA0MDQ6CiAgICAgICAgICAgICAgICByZXR1cm4gTm9uZQogICAgICAgICAgICByLnJhaXNlX2Zvcl9zdGF0dXMoKQogICAgICAgICAgICB6ZiA9IHppcGZpbGUuWmlwRmlsZShpby5CeXRlc0lPKHIuY29udGVudCkpCiAgICAgICAgICAgIG5hbWUgPSB6Zi5uYW1lbGlzdCgpWzBdCiAgICAgICAgICAgIGRmID0gX19pbXBvcnRfXygiZmVhdHVyZXMiKS5sb2FkX2tsaW5lX2Nzdihpby5CeXRlc0lPKHpmLnJlYWQobmFtZSkpKQogICAgICAgICAgICByZXR1cm4gZGYKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICBpZiBpID09IHJldHJpZXMgLSAxOgogICAgICAgICAgICAgICAgcmFpc2UKICAgICAgICAgICAgdGltZS5zbGVlcCgyICogKGkgKyAxKSkKCgpkZWYgZmV0Y2hfcmFuZ2Uoc3ltYm9sLCBpbnRlcnZhbCwgbW9udGhzLCBjYWNoZV9kaXI9Tm9uZSwgbG9nPXByaW50KToKICAgICIiIuaMieaciOaLvOaOpeS4i+i9ve+8jOWPr+mAieacrOWcsHBhcnF1ZXTnvJPlrZjjgILov5Tlm57lrozmlbQgRGF0YUZyYW1l44CCIiIiCiAgICBpbXBvcnQgcGFuZGFzIGFzIHBkCiAgICBmcmFtZXMgPSBbXQogICAgZm9yICh5LCBtKSBpbiBtb250aHM6CiAgICAgICAgZnAgPSBOb25lCiAgICAgICAgaWYgY2FjaGVfZGlyOgogICAgICAgICAgICBvcy5tYWtlZGlycyhjYWNoZV9kaXIsIGV4aXN0X29rPVRydWUpCiAgICAgICAgICAgIGZwID0gb3MucGF0aC5qb2luKGNhY2hlX2RpciwgZiJ7c3ltYm9sfS17aW50ZXJ2YWx9LXt5OjA0ZH17bTowMmR9LnBhcnF1ZXQiKQogICAgICAgIGlmIGZwIGFuZCBvcy5wYXRoLmV4aXN0cyhmcCk6CiAgICAgICAgICAgIGZyYW1lcy5hcHBlbmQocGQucmVhZF9wYXJxdWV0KGZwKSkKICAgICAgICAgICAgY29udGludWUKICAgICAgICBkZiA9IGZldGNoX21vbnRoKHN5bWJvbCwgaW50ZXJ2YWwsIHksIG0pCiAgICAgICAgaWYgZGYgaXMgTm9uZToKICAgICAgICAgICAgY29udGludWUKICAgICAgICBpZiBmcDoKICAgICAgICAgICAgZGYudG9fcGFycXVldChmcCkKICAgICAgICBmcmFtZXMuYXBwZW5kKGRmKQogICAgICAgIGxvZyhmIiAge3N5bWJvbH0ge2ludGVydmFsfSB7eX0te206MDJkfSByb3dzPXtsZW4oZGYpfSIpCiAgICBpZiBub3QgZnJhbWVzOgogICAgICAgIHJldHVybiBOb25lCiAgICBpbXBvcnQgcGFuZGFzIGFzIHBkCiAgICBvdXQgPSBwZC5jb25jYXQoZnJhbWVzLCBpZ25vcmVfaW5kZXg9VHJ1ZSkKICAgIG91dCA9IG91dC5kcm9wX2R1cGxpY2F0ZXMoIm9wZW5fdGltZSIpLnNvcnRfdmFsdWVzKCJvcGVuX3RpbWUiKS5yZXNldF9pbmRleChkcm9wPVRydWUpCiAgICByZXR1cm4gb3V0CgoKZGVmIHJlY2VudF9kYXlzKHN5bWJvbCwgaW50ZXJ2YWwsIGRheXMsIGxpbWl0X21vbnRocz0yKToKICAgICIiIuaJi+acuuerr++8muaLieacgOi/kSBOIOWkqeaVsOaNru+8iOS7juacgOaWsOWHoOS4quaciHppcOmHjOWIh+Wwvuaute+8ieOAgiIiIgogICAgaW1wb3J0IGRhdGV0aW1lCiAgICBtb250aHMgPSBtb250aF9saXN0KClbLWxpbWl0X21vbnRoczpdCiAgICBkZiA9IGZldGNoX3JhbmdlKHN5bWJvbCwgaW50ZXJ2YWwsIG1vbnRocykKICAgIGlmIGRmIGlzIE5vbmU6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIGN1dG9mZiA9IGludCgoZGF0ZXRpbWUuZGF0ZXRpbWUubm93KCkgLSBkYXRldGltZS50aW1lZGVsdGEoZGF5cz1kYXlzKSkudGltZXN0YW1wKCkgKiAxMDAwKQogICAgcmV0dXJuIGRmW2RmWyJvcGVuX3RpbWUiXSA+PSBjdXRvZmZdLnJlc2V0X2luZGV4KGRyb3A9VHJ1ZSkKCgpTVEFCTEVfQkFTRVMgPSB7IlVTREMiLCAiVVNEMSIsICJSTFVTRCIsICJGRFVTRCIsICJUVVNEIiwgIkRBSSIsICJVU0RQIiwgIlVTREUiLAogICAgICAgICAgICAgICAgIkVVUiIsICJFVVJJIiwgIkFFVVIiLCAiQlVTRCIsICJVU0RKIiwgIkdVU0QiLCAiTFVTRCIsICJQWVVTRCIsCiAgICAgICAgICAgICAgICAiWFVTRCIsICJVU0RGIiwgIkJGVVNEIiwgIlVTRFEiLCAiVVNEUiIsICJPVVNEIiwgIlNVU0RFIiwgIlVTRFkifQoKCmRlZiB0b3Bfc3ltYm9scyhuPTUwLCBxdW90ZT0iVVNEVCIsIGZhbGxiYWNrX2ZpbGU9Tm9uZSk6CiAgICAiIiLmjIkyNGjmiJDkuqTpop3lj5ZUb3AgTu+8iOWJlOmZpOeos+WumuW4gS/mnaDmnYbnpajvvJtkYXRhLWFwaS5iaW5hbmNlLnZpc2lvbu+8ieOAgiIiIgogICAgdHJ5OgogICAgICAgIHIgPSByZXF1ZXN0cy5nZXQoImh0dHBzOi8vZGF0YS1hcGkuYmluYW5jZS52aXNpb24vYXBpL3YzL3RpY2tlci8yNGhyIiwKICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlcnM9VUEsIHRpbWVvdXQ9NjApCiAgICAgICAgci5yYWlzZV9mb3Jfc3RhdHVzKCkKICAgICAgICByb3dzID0gW10KICAgICAgICBmb3IgeCBpbiByLmpzb24oKToKICAgICAgICAgICAgcyA9IHhbInN5bWJvbCJdCiAgICAgICAgICAgIGlmIG5vdCBzLmVuZHN3aXRoKHF1b3RlKToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIGJhc2UgPSBzWzotbGVuKHF1b3RlKV0KICAgICAgICAgICAgaWYgYmFzZSBpbiBTVEFCTEVfQkFTRVM6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICByb3dzLmFwcGVuZCh4KQogICAgICAgIHJvd3Muc29ydChrZXk9bGFtYmRhIHg6IGZsb2F0KHhbInF1b3RlVm9sdW1lIl0pLCByZXZlcnNlPVRydWUpCiAgICAgICAgcmV0dXJuIFt4WyJzeW1ib2wiXSBmb3IgeCBpbiByb3dzWzpuXV0KICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgaWYgZmFsbGJhY2tfZmlsZSBhbmQgb3MucGF0aC5leGlzdHMoZmFsbGJhY2tfZmlsZSk6CiAgICAgICAgICAgIHJldHVybiBvcGVuKGZhbGxiYWNrX2ZpbGUpLnJlYWQoKS5zcGxpdCgpWzpuXQogICAgICAgIHJhaXNlCg==
+# -*- coding: utf-8 -*-
+"""币安历史数据下载器（data.binance.vision，国内可达）。
+CI 端全量拉取；手机端只拉最近窗口做实时缓存。"""
+import io
+import os
+import time
+import zipfile
+import requests
+
+BASE = "https://data.binance.vision/data/spot/monthly/klines"
+UA = {"User-Agent": "Mozilla/5.0"}
+
+
+def month_list(first_year=2017, until=None):
+    """生成 [2017-01 .. 上月] 的 (y, m) 列表。"""
+    import datetime
+    today = until or datetime.date.today()
+    y, m = today.year, today.month - 1
+    if m == 0:
+        y, m = y - 1, 12
+    out = []
+    cy, cm = first_year, 1
+    while (cy, cm) <= (y, m):
+        out.append((cy, cm))
+        cm += 1
+        if cm == 13:
+            cy, cm = cy + 1, 1
+    return out
+
+
+def zip_url(symbol, interval, y, m):
+    return f"{BASE}/{symbol}/{interval}/{symbol}-{interval}-{y:04d}-{m:02d}.zip"
+
+
+def fetch_month(symbol, interval, y, m, retries=3, timeout=120):
+    """下载单月zip并解析为 float32 DataFrame；404返回None。"""
+    url = zip_url(symbol, interval, y, m)
+    for i in range(retries):
+        try:
+            r = requests.get(url, headers=UA, timeout=timeout)
+            if r.status_code == 404:
+                return None
+            r.raise_for_status()
+            zf = zipfile.ZipFile(io.BytesIO(r.content))
+            name = zf.namelist()[0]
+            df = __import__("features").load_kline_csv(io.BytesIO(zf.read(name)))
+            return df
+        except Exception:
+            if i == retries - 1:
+                raise
+            time.sleep(2 * (i + 1))
+
+
+def fetch_range(symbol, interval, months, cache_dir=None, log=print):
+    """按月拼接下载，可选本地parquet缓存。返回完整 DataFrame。"""
+    import pandas as pd
+    frames = []
+    for (y, m) in months:
+        fp = None
+        if cache_dir:
+            os.makedirs(cache_dir, exist_ok=True)
+            fp = os.path.join(cache_dir, f"{symbol}-{interval}-{y:04d}{m:02d}.parquet")
+        if fp and os.path.exists(fp):
+            frames.append(pd.read_parquet(fp))
+            continue
+        df = fetch_month(symbol, interval, y, m)
+        if df is None:
+            continue
+        if fp:
+            df.to_parquet(fp)
+        frames.append(df)
+        log(f"  {symbol} {interval} {y}-{m:02d} rows={len(df)}")
+    if not frames:
+        return None
+    import pandas as pd
+    out = pd.concat(frames, ignore_index=True)
+    out = out.drop_duplicates("open_time").sort_values("open_time").reset_index(drop=True)
+    return out
+
+
+def recent_days(symbol, interval, days, limit_months=2):
+    """手机端：拉最近 N 天数据（从最新几个月zip里切尾段）。"""
+    import datetime
+    months = month_list()[-limit_months:]
+    df = fetch_range(symbol, interval, months)
+    if df is None:
+        return None
+    cutoff = int((datetime.datetime.now() - datetime.timedelta(days=days)).timestamp() * 1000)
+    return df[df["open_time"] >= cutoff].reset_index(drop=True)
+
+
+STABLE_BASES = {"USDC", "USD1", "RLUSD", "FDUSD", "TUSD", "DAI", "USDP", "USDE",
+                "EUR", "EURI", "AEUR", "BUSD", "USDJ", "GUSD", "LUSD", "PYUSD",
+                "XUSD", "USDF", "BFUSD", "USDQ", "USDR", "OUSD", "SUSDE", "USDY"}
+
+
+def top_symbols(n=50, quote="USDT", fallback_file=None):
+    """按24h成交额取Top N（剔除稳定币/杠杆票；data-api.binance.vision）。"""
+    try:
+        r = requests.get("https://data-api.binance.vision/api/v3/ticker/24hr",
+                         headers=UA, timeout=60)
+        r.raise_for_status()
+        rows = []
+        for x in r.json():
+            s = x["symbol"]
+            if not s.endswith(quote):
+                continue
+            base = s[:-len(quote)]
+            if base in STABLE_BASES:
+                continue
+            rows.append(x)
+        rows.sort(key=lambda x: float(x["quoteVolume"]), reverse=True)
+        return [x["symbol"] for x in rows[:n]]
+    except Exception:
+        if fallback_file and os.path.exists(fallback_file):
+            return open(fallback_file).read().split()[:n]
+        raise

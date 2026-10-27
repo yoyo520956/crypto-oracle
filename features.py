@@ -1,1 +1,111 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIi5Zug5a2Q5bel56iL77yaQWxwaGExNTgg57K+566A5a2Q6ZuG77yMQ0kg6K6t57uD56uv5LiO5omL5py65o6o55CG56uv5YWx55So5ZCM5LiA5Lu95Luj56CB44CCCuWNleS9jeaXoOWFs++8mjFtIOS4jiAxcyDmlbDmja7pg73osIPlkIzkuIDlh73mlbDvvIzor63kuYnpmo8gYmFyIOeykuW6pue8qeaUvuOAgiIiIgppbXBvcnQgbnVtcHkgYXMgbnAKaW1wb3J0IHBhbmRhcyBhcyBwZAoKIyBL57q/5YiX5ZCN77yI5biB5a6JIGNzdiDpobrluo/vvIkKS0xJTkVTX0NPTFMgPSBbIm9wZW5fdGltZSIsICJvcGVuIiwgImhpZ2giLCAibG93IiwgImNsb3NlIiwgInZvbHVtZSIsCiAgICAgICAgICAgICAgICJjbG9zZV90aW1lIiwgInFhdiIsICJ0cmFkZXMiLCAidGJiIiwgInRicSIsICJpZ25vcmUiXQoKTlVNX0NPTFMgPSBbIm9wZW4iLCAiaGlnaCIsICJsb3ciLCAiY2xvc2UiLCAidm9sdW1lIiwgInFhdiIsICJ0cmFkZXMiXQoKCmRlZiBsb2FkX2tsaW5lX2NzdihwYXRoKToKICAgICIiIuivu+W4geWuiSBrbGluZSBjc3bvvIjml6DooajlpLTvvInvvIzov5Tlm54gZmxvYXQzMiBEYXRhRnJhbWXjgIIiIiIKICAgIGRmID0gcGQucmVhZF9jc3YocGF0aCwgaGVhZGVyPU5vbmUsIG5hbWVzPUtMSU5FU19DT0xTKQogICAgZm9yIGMgaW4gTlVNX0NPTFM6CiAgICAgICAgZGZbY10gPSBkZltjXS5hc3R5cGUobnAuZmxvYXQzMikKICAgIGRmWyJvcGVuX3RpbWUiXSA9IGRmWyJvcGVuX3RpbWUiXS5hc3R5cGUobnAuaW50NjQpCiAgICByZXR1cm4gZGYKCgpkZWYgX3NhZmVfZGl2KGEsIGIpOgogICAgcmV0dXJuIChhIC8gYi5yZXBsYWNlKDAsIG5wLm5hbikpLmFzdHlwZShucC5mbG9hdDMyKQoKCmRlZiBtYWtlX2ZlYXR1cmVzKGRmOiBwZC5EYXRhRnJhbWUpIC0+IHBkLkRhdGFGcmFtZToKICAgICIiIui+k+WFpTogb3Blbi9oaWdoL2xvdy9jbG9zZS92b2x1bWUvcWF2L3RyYWRlcyDnmoQgRGF0YUZyYW1l77yI5oyJ5pe26Ze05Y2H5bqP77yJ44CCCiAgICDovpPlh7o6IOeJueW+geefqemYte+8iGZsb2F0MzLvvInvvIzkuI7ovpPlhaXnrYnplb/vvIjliY3pg6jmu5rliqjnqpfkuLogTmFOIOihjOeUseiwg+eUqOaWueS4ouW8g++8ieOAgiIiIgogICAgYywgaCwgbCwgdiwgcSA9IGRmWyJjbG9zZSJdLCBkZlsiaGlnaCJdLCBkZlsibG93Il0sIGRmWyJ2b2x1bWUiXSwgZGZbInFhdiJdCiAgICBvID0gZGZbIm9wZW4iXQogICAgZiA9IHBkLkRhdGFGcmFtZShpbmRleD1kZi5pbmRleCkKICAgIGxvZ2MgPSBucC5sb2coYy5hc3R5cGUobnAuZmxvYXQ2NCkpCgogICAgIyAxKSDlpJrlkajmnJ/mlLbnm4rnjocKICAgIGZvciBrIGluICgxLCAyLCAzLCA1LCAxMCwgMjAsIDMwLCA2MCwgMTIwKToKICAgICAgICBmW2YicmV0X3trfSJdID0gbG9nYy5kaWZmKGspLmFzdHlwZShucC5mbG9hdDMyKQoKICAgICMgMikg5Yqo6YeP77ya5Lu35qC855u45a+55rua5Yqo5Z2H57q/CiAgICBmb3IgayBpbiAoNSwgMjAsIDYwLCAxMjApOgogICAgICAgIGZbZiJtb21fe2t9Il0gPSBfc2FmZV9kaXYoYyAtIGMucm9sbGluZyhrKS5tZWFuKCksIGMucm9sbGluZyhrKS5tZWFuKCkpCgogICAgIyAzKSDms6LliqjnjofkuI7ms6Lliqjnu5PmnoQKICAgIHIxID0gbG9nYy5kaWZmKCkKICAgIGZvciBrIGluICgxMCwgMzAsIDYwKToKICAgICAgICBmW2Yidm9sX3trfSJdID0gcjEucm9sbGluZyhrKS5zdGQoKS5hc3R5cGUobnAuZmxvYXQzMikKICAgIGZbInZvbF9yYXRpb18xMF82MCJdID0gX3NhZmVfZGl2KGZbInZvbF8xMCJdLCBmWyJ2b2xfNjAiXSkKICAgIHJuZyA9IChoIC0gbCkuY2xpcChsb3dlcj0xZS0xMikKICAgIGZbImhsX3JhbmdlIl0gPSBfc2FmZV9kaXYoaCAtIGwsIGMpCiAgICBmWyJib2R5X3JhdGlvIl0gPSBfc2FmZV9kaXYoKGMgLSBvKS5hYnMoKSwgcm5nKQogICAgZlsidXBwZXJfc2hhZG93Il0gPSBfc2FmZV9kaXYoaCAtIGMuY2xpcChsb3dlcj1vKSwgcm5nKQogICAgZlsibG93ZXJfc2hhZG93Il0gPSBfc2FmZV9kaXYoby5jbGlwKGxvd2VyPWMpIC0gbCwgcm5nKQoKICAgICMgNCkg6YeP6IO954m55b6BCiAgICBmb3IgayBpbiAoMTAsIDYwKToKICAgICAgICBmW2YicXZfe2t9Il0gPSBfc2FmZV9kaXYodiAtIHYucm9sbGluZyhrKS5tZWFuKCksIHYucm9sbGluZyhrKS5tZWFuKCkgKyAxLjApCiAgICBmWyJxdl9yYXRpb18xMF82MCJdID0gX3NhZmVfZGl2KGZbInF2XzEwIl0sIGZbInF2XzYwIl0pCiAgICBmWyJ0cmFkZXNfMTAiXSA9IF9zYWZlX2RpdihkZlsidHJhZGVzIl0gLSBkZlsidHJhZGVzIl0ucm9sbGluZygxMCkubWVhbigpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGZbInRyYWRlcyJdLnJvbGxpbmcoMTApLm1lYW4oKSArIDEuMCkKICAgICMg5Li75Yqo5Lmw5Y2W5Y6L5Yqb77yIdGJiPeS4u+WKqOS5sOmHj++8iQogICAgZlsidGJiX3JhdGlvIl0gPSBfc2FmZV9kaXYoZGZbInRiYiJdLCB2ICsgMS4wKQoKICAgICMgNSkg5Z2H57q/5pePCiAgICBmb3IgayBpbiAoMjAsIDYwKToKICAgICAgICBtID0gYy5yb2xsaW5nKGspLm1lYW4oKQogICAgICAgIHMgPSBjLnJvbGxpbmcoaykuc3RkKCkgKyAxZS05CiAgICAgICAgZltmIm1hX3Bvc197a30iXSA9IF9zYWZlX2RpdihjIC0gbSwgcykgICAgICAgICAgIyDnsbt6LXNjb3JlCiAgICBlbWExMiA9IGMuZXdtKHNwYW49MTIsIGFkanVzdD1GYWxzZSkubWVhbigpCiAgICBlbWEyNiA9IGMuZXdtKHNwYW49MjYsIGFkanVzdD1GYWxzZSkubWVhbigpCiAgICBmWyJtYWNkX2Nyb3NzIl0gPSBfc2FmZV9kaXYoZW1hMTIgLSBlbWEyNiwgYykKCiAgICAjIDYpIFJTSSgxNCkKICAgIGRlbHRhID0gYy5kaWZmKCkKICAgIHVwID0gZGVsdGEuY2xpcChsb3dlcj0wKS5ld20oYWxwaGE9MSAvIDE0LCBhZGp1c3Q9RmFsc2UpLm1lYW4oKQogICAgZG4gPSAoLWRlbHRhLmNsaXAodXBwZXI9MCkpLmV3bShhbHBoYT0xIC8gMTQsIGFkanVzdD1GYWxzZSkubWVhbigpCiAgICBmWyJyc2lfMTQiXSA9ICgxMDAgLSAxMDAgLyAoMSArIHVwIC8gKGRuICsgMWUtOSkpKS5hc3R5cGUobnAuZmxvYXQzMikKCiAgICAjIDcpIOWMuumXtOS9jee9ruS4jlZXQVAKICAgIGZvciBrIGluICgxMCwgMzAsIDEyMCk6CiAgICAgICAgaGgsIGxsID0gaC5yb2xsaW5nKGspLm1heCgpLCBsLnJvbGxpbmcoaykubWluKCkKICAgICAgICBmW2YicG9zX3trfSJdID0gX3NhZmVfZGl2KGMgLSBsbCwgKGhoIC0gbGwpLmNsaXAobG93ZXI9MWUtOSkpCiAgICB2d2FwID0gX3NhZmVfZGl2KHEuY3Vtc3VtKCksIHYuY3Vtc3VtKCkgKyAxLjApCiAgICBmWyJ2d2FwX2dhcCJdID0gX3NhZmVfZGl2KGMgLSB2d2FwLCB2d2FwKQoKICAgICMgOCkg5pe26Ze057yW56CB77yI5q+r56eS5pe26Ze05oizIOKGkiDlkajmnJ/mraPlvKbvvIkKICAgIHQgPSBkZlsib3Blbl90aW1lIl0uYXN0eXBlKG5wLmludDY0KQogICAgc2VjX29mX2RheSA9ICh0IC8vIDEwMDApICUgODY0MDAKICAgIGZbInRvZF9zaW4iXSA9IG5wLnNpbigyICogbnAucGkgKiBzZWNfb2ZfZGF5IC8gODY0MDApLmFzdHlwZShucC5mbG9hdDMyKQogICAgZlsidG9kX2NvcyJdID0gbnAuY29zKDIgKiBucC5waSAqIHNlY19vZl9kYXkgLyA4NjQwMCkuYXN0eXBlKG5wLmZsb2F0MzIpCgogICAgcmV0dXJuIGYKCgpkZWYgbWFrZV9sYWJlbChkZjogcGQuRGF0YUZyYW1lLCBob3Jpem9uOiBpbnQsIGJhbmQ6IGZsb2F0ID0gMC4wMDA0KToKICAgICIiIuacquadpSBob3Jpem9uIOaguSBiYXIg55qE5pS255uK5pa55ZCR44CCfOaUtuebinw8YmFuZCDnmoTov5HkuK3mgKfmoLfmnKzmoIcgLTHvvIjorq3nu4Pml7bliZTpmaTvvInjgIIiIiIKICAgIGZ1dCA9IChucC5sb2coZGZbImNsb3NlIl0uc2hpZnQoLWhvcml6b24pLmFzdHlwZShucC5mbG9hdDY0KSkKICAgICAgICAgICAtIG5wLmxvZyhkZlsiY2xvc2UiXS5hc3R5cGUobnAuZmxvYXQ2NCkpKQogICAgeSA9IG5wLndoZXJlKGZ1dCA+IGJhbmQsIDEsIG5wLndoZXJlKGZ1dCA8IC1iYW5kLCAwLCAtMSkpLmFzdHlwZShucC5pbnQ4KQogICAgcmV0dXJuIHBkLlNlcmllcyh5LCBpbmRleD1kZi5pbmRleCksIGZ1dAoKCmRlZiBhZ2dyZWdhdGVfYmFycyhkZjogcGQuRGF0YUZyYW1lLCBrOiBpbnQpIC0+IHBkLkRhdGFGcmFtZToKICAgICIiIuenkue6p0vnur/ph43ph4fmoLfkuLogayDlgI3lpKdiYXLvvIjnnIHlhoXlrZgv6ZmN5Zmq77yMMXPihpI0cyDnrYnvvInjgIIiIiIKICAgIGcgPSBkZi5ncm91cGJ5KG5wLmFyYW5nZShsZW4oZGYpKSAvLyBrKQogICAgb3V0ID0gcGQuRGF0YUZyYW1lKHsKICAgICAgICAib3Blbl90aW1lIjogZ1sib3Blbl90aW1lIl0uZmlyc3QoKSwKICAgICAgICAib3BlbiI6IGdbIm9wZW4iXS5maXJzdCgpLCAiaGlnaCI6IGdbImhpZ2giXS5tYXgoKSwKICAgICAgICAibG93IjogZ1sibG93Il0ubWluKCksICJjbG9zZSI6IGdbImNsb3NlIl0ubGFzdCgpLAogICAgICAgICJ2b2x1bWUiOiBnWyJ2b2x1bWUiXS5zdW0oKSwgInFhdiI6IGdbInFhdiJdLnN1bSgpLAogICAgICAgICJ0cmFkZXMiOiBnWyJ0cmFkZXMiXS5zdW0oKSwgInRiYiI6IGdbInRiYiJdLnN1bSgpfSkKICAgIHJldHVybiBvdXQucmVzZXRfaW5kZXgoZHJvcD1UcnVlKQo=
+# -*- coding: utf-8 -*-
+"""因子工程：Alpha158 精简子集，CI 训练端与手机推理端共用同一份代码。
+单位无关：1m 与 1s 数据都调同一函数，语义随 bar 粒度缩放。"""
+import numpy as np
+import pandas as pd
+
+# K线列名（币安 csv 顺序）
+KLINES_COLS = ["open_time", "open", "high", "low", "close", "volume",
+               "close_time", "qav", "trades", "tbb", "tbq", "ignore"]
+
+NUM_COLS = ["open", "high", "low", "close", "volume", "qav", "trades"]
+
+
+def load_kline_csv(path):
+    """读币安 kline csv（无表头），返回 float32 DataFrame。"""
+    df = pd.read_csv(path, header=None, names=KLINES_COLS)
+    for c in NUM_COLS:
+        df[c] = df[c].astype(np.float32)
+    df["open_time"] = df["open_time"].astype(np.int64)
+    return df
+
+
+def _safe_div(a, b):
+    return (a / b.replace(0, np.nan)).astype(np.float32)
+
+
+def make_features(df: pd.DataFrame) -> pd.DataFrame:
+    """输入: open/high/low/close/volume/qav/trades 的 DataFrame（按时间升序）。
+    输出: 特征矩阵（float32），与输入等长（前部滚动窗为 NaN 行由调用方丢弃）。"""
+    c, h, l, v, q = df["close"], df["high"], df["low"], df["volume"], df["qav"]
+    o = df["open"]
+    f = pd.DataFrame(index=df.index)
+    logc = np.log(c.astype(np.float64))
+
+    # 1) 多周期收益率
+    for k in (1, 2, 3, 5, 10, 20, 30, 60, 120):
+        f[f"ret_{k}"] = logc.diff(k).astype(np.float32)
+
+    # 2) 动量：价格相对滚动均线
+    for k in (5, 20, 60, 120):
+        f[f"mom_{k}"] = _safe_div(c - c.rolling(k).mean(), c.rolling(k).mean())
+
+    # 3) 波动率与波动结构
+    r1 = logc.diff()
+    for k in (10, 30, 60):
+        f[f"vol_{k}"] = r1.rolling(k).std().astype(np.float32)
+    f["vol_ratio_10_60"] = _safe_div(f["vol_10"], f["vol_60"])
+    rng = (h - l).clip(lower=1e-12)
+    f["hl_range"] = _safe_div(h - l, c)
+    f["body_ratio"] = _safe_div((c - o).abs(), rng)
+    f["upper_shadow"] = _safe_div(h - c.clip(lower=o), rng)
+    f["lower_shadow"] = _safe_div(o.clip(lower=c) - l, rng)
+
+    # 4) 量能特征
+    for k in (10, 60):
+        f[f"qv_{k}"] = _safe_div(v - v.rolling(k).mean(), v.rolling(k).mean() + 1.0)
+    f["qv_ratio_10_60"] = _safe_div(f["qv_10"], f["qv_60"])
+    f["trades_10"] = _safe_div(df["trades"] - df["trades"].rolling(10).mean(),
+                               df["trades"].rolling(10).mean() + 1.0)
+    # 主动买卖压力（tbb=主动买量）
+    f["tbb_ratio"] = _safe_div(df["tbb"], v + 1.0)
+
+    # 5) 均线族
+    for k in (20, 60):
+        m = c.rolling(k).mean()
+        s = c.rolling(k).std() + 1e-9
+        f[f"ma_pos_{k}"] = _safe_div(c - m, s)          # 类z-score
+    ema12 = c.ewm(span=12, adjust=False).mean()
+    ema26 = c.ewm(span=26, adjust=False).mean()
+    f["macd_cross"] = _safe_div(ema12 - ema26, c)
+
+    # 6) RSI(14)
+    delta = c.diff()
+    up = delta.clip(lower=0).ewm(alpha=1 / 14, adjust=False).mean()
+    dn = (-delta.clip(upper=0)).ewm(alpha=1 / 14, adjust=False).mean()
+    f["rsi_14"] = (100 - 100 / (1 + up / (dn + 1e-9))).astype(np.float32)
+
+    # 7) 区间位置与VWAP
+    for k in (10, 30, 120):
+        hh, ll = h.rolling(k).max(), l.rolling(k).min()
+        f[f"pos_{k}"] = _safe_div(c - ll, (hh - ll).clip(lower=1e-9))
+    vwap = _safe_div(q.cumsum(), v.cumsum() + 1.0)
+    f["vwap_gap"] = _safe_div(c - vwap, vwap)
+
+    # 8) 时间编码（毫秒时间戳 → 周期正弦）
+    t = df["open_time"].astype(np.int64)
+    sec_of_day = (t // 1000) % 86400
+    f["tod_sin"] = np.sin(2 * np.pi * sec_of_day / 86400).astype(np.float32)
+    f["tod_cos"] = np.cos(2 * np.pi * sec_of_day / 86400).astype(np.float32)
+
+    return f
+
+
+def make_label(df: pd.DataFrame, horizon: int, band: float = 0.0004):
+    """未来 horizon 根 bar 的收益方向。|收益|<band 的近中性样本标 -1（训练时剔除）。"""
+    fut = (np.log(df["close"].shift(-horizon).astype(np.float64))
+           - np.log(df["close"].astype(np.float64)))
+    y = np.where(fut > band, 1, np.where(fut < -band, 0, -1)).astype(np.int8)
+    return pd.Series(y, index=df.index), fut
+
+
+def aggregate_bars(df: pd.DataFrame, k: int) -> pd.DataFrame:
+    """秒级K线重采样为 k 倍大bar（省内存/降噪，1s→4s 等）。"""
+    g = df.groupby(np.arange(len(df)) // k)
+    out = pd.DataFrame({
+        "open_time": g["open_time"].first(),
+        "open": g["open"].first(), "high": g["high"].max(),
+        "low": g["low"].min(), "close": g["close"].last(),
+        "volume": g["volume"].sum(), "qav": g["qav"].sum(),
+        "trades": g["trades"].sum(), "tbb": g["tbb"].sum()})
+    return out.reset_index(drop=True)

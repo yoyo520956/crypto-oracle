@@ -1,1 +1,171 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiLliqDlr4bnpZ7osJXCt+aJi+acuuerr+WunuaXtuaOqOeQhuacjeWKoe+8iGlTSO+8ieOAggrnur/nqIvvvJrlhajluILlnLrmiqXku7fova7or6IgLyBL57q/57yT5a2Y5Yi35pawIC8g5q+P56eS5qih5Z6L5o6o55CGIC8gSFRUUOS7quihqOebmOOAggrmlbDmja7mupDvvJpkYXRhLWFwaS5iaW5hbmNlLnZpc2lvbu+8iFJFU1TvvIzlm73lhoXlj6/ovr7vvInjgIIiIiIKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBqc29uCmltcG9ydCBvcwppbXBvcnQgc3lzCmltcG9ydCB0aHJlYWRpbmcKaW1wb3J0IHRpbWUKZnJvbSBodHRwLnNlcnZlciBpbXBvcnQgQmFzZUhUVFBSZXF1ZXN0SGFuZGxlciwgVGhyZWFkaW5nSFRUUFNlcnZlcgoKc3lzLnBhdGguaW5zZXJ0KDAsIG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmRpcm5hbWUob3MucGF0aC5hYnNwYXRoKF9fZmlsZV9fKSkpKQppbXBvcnQgam9ibGliCmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgcGFuZGFzIGFzIHBkCmltcG9ydCByZXF1ZXN0cwoKaW1wb3J0IGZlYXR1cmVzIGFzIGZ0CgpBUEkgPSAiaHR0cHM6Ly9kYXRhLWFwaS5iaW5hbmNlLnZpc2lvbiIKVUEgPSB7IlVzZXItQWdlbnQiOiAiTW96aWxsYS81LjAifQpIRVJFID0gb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChfX2ZpbGVfXykpCk1PREVMU19ESVIgPSBvcy5lbnZpcm9uLmdldCgiT1JBQ0xFX01PREVMUyIsIG9zLnBhdGguam9pbihIRVJFLCAibW9kZWxzIikpCgpTVEFURSA9IHsidGljayI6IDAsICJ1cGRhdGVkIjogMCwgInByaWNlcyI6IHt9LCAicHJlZHMiOiB7fSwgImNoZyI6IHt9fQpMT0NLID0gdGhyZWFkaW5nLkxvY2soKQpNT0RFTFMgPSB7fSAgICMgc3ltIC0+IHsiMW0iOiBidW5kbGUsICIxcyI6IGJ1bmRsZX0KQ0FDSEUgPSB7fSAgICAjIChzeW0sIGludGVydmFsKSAtPiBEYXRhRnJhbWUg5rua5YqoS+e6v+e8k+WtmAoKCmRlZiBsb2cobSk6CiAgICBwcmludChmIltsaXZlXSB7bX0iLCBmbHVzaD1UcnVlKQoKCmRlZiBhcGlfZ2V0KHBhdGgsICoqcGFyYW1zKToKICAgIHIgPSByZXF1ZXN0cy5nZXQoQVBJICsgcGF0aCwgcGFyYW1zPXBhcmFtcywgaGVhZGVycz1VQSwgdGltZW91dD0xNSkKICAgIHIucmFpc2VfZm9yX3N0YXR1cygpCiAgICByZXR1cm4gci5qc29uKCkKCgpkZWYga2xpbmVzX2RmKHN5bSwgaW50ZXJ2YWwsIGxpbWl0KToKICAgIHJhdyA9IGFwaV9nZXQoIi9hcGkvdjMva2xpbmVzIiwgc3ltYm9sPXN5bSwgaW50ZXJ2YWw9aW50ZXJ2YWwsIGxpbWl0PWxpbWl0KQogICAgZGYgPSBwZC5EYXRhRnJhbWUoW3JbOjEyXSBmb3IgciBpbiByYXddLCBjb2x1bW5zPWZ0LktMSU5FU19DT0xTKQogICAgZm9yIGMgaW4gZnQuTlVNX0NPTFM6CiAgICAgICAgZGZbY10gPSBkZltjXS5hc3R5cGUobnAuZmxvYXQzMikKICAgIGRmWyJvcGVuX3RpbWUiXSA9IGRmWyJvcGVuX3RpbWUiXS5hc3R5cGUobnAuaW50NjQpCiAgICByZXR1cm4gZGYKCgpkZWYgdGlja2VyX2xvb3AoKToKICAgICIiIuavj34z56eS5YWo5biC5Zy65oql5Lu377yI5LiA5qyh6K+35rGC5ou/5YWo6YOo5biB77yJ44CCIiIiCiAgICB3aGlsZSBUcnVlOgogICAgICAgIHRyeToKICAgICAgICAgICAgcm93cyA9IGFwaV9nZXQoIi9hcGkvdjMvdGlja2VyL3ByaWNlIikKICAgICAgICAgICAgd2l0aCBMT0NLOgogICAgICAgICAgICAgICAgU1RBVEVbInByaWNlcyJdID0ge3JbInN5bWJvbCJdOiBmbG9hdChyWyJwcmljZSJdKSBmb3IgciBpbiByb3dzfQogICAgICAgICAgICAgICAgU1RBVEVbInVwZGF0ZWQiXSA9IHRpbWUudGltZSgpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICBsb2coZiJ0aWNrZXI6IHtlfSIpCiAgICAgICAgdGltZS5zbGVlcCgzKQoKCmRlZiByZWZyZXNoX2NhY2hlKHN5bSk6CiAgICB0cnk6CiAgICAgICAgaWYgZiJ7c3ltfV8xbSIgaW4gTU9ERUxTOgogICAgICAgICAgICBDQUNIRVsoc3ltLCAiMW0iKV0gPSBrbGluZXNfZGYoc3ltLCAiMW0iLCAzMDApCiAgICAgICAgaWYgZiJ7c3ltfV8xcyIgaW4gTU9ERUxTOgogICAgICAgICAgICBDQUNIRVsoc3ltLCAiMXMiKV0gPSBmdC5hZ2dyZWdhdGVfYmFycyhrbGluZXNfZGYoc3ltLCAiMXMiLCA5MDApLCA0KQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIGxvZyhmImNhY2hlIHtzeW19OiB7ZX0iKQoKCmRlZiBjYWNoZV9sb29wKCk6CiAgICBzeW1zID0gbGlzdChNT0RFTFMua2V5cygpKQogICAgd2hpbGUgVHJ1ZToKICAgICAgICBmb3IgcyBpbiBzeW1zOgogICAgICAgICAgICByZWZyZXNoX2NhY2hlKHMpCiAgICAgICAgICAgIHRpbWUuc2xlZXAoMC4xNSkgICAjIOa4qeWSjOmZkOmAn++8mjUw5biB57qmOOenkuWIt+WujOS4gOi9rgogICAgICAgIHRpbWUuc2xlZXAoNDUpCgoKZGVmIGluZmVyX2xvb3AoKToKICAgICIiIuavj+enku+8mue8k+WtmEvnur8r5pyA5paw5Lu36KGl5oiQcGFydGlhbCBiYXIg4oaSIOeJueW+gSDihpIg5qih5Z6LIOKGkiDmpoLnjofjgIIiIiIKICAgIHdoaWxlIFRydWU6CiAgICAgICAgdDAgPSB0aW1lLnRpbWUoKQogICAgICAgIHdpdGggTE9DSzoKICAgICAgICAgICAgcHJpY2VzID0gZGljdChTVEFURVsicHJpY2VzIl0pCiAgICAgICAgb3V0ID0ge30KICAgICAgICBmb3Igc3ltLCBtc2V0cyBpbiBNT0RFTFMuaXRlbXMoKToKICAgICAgICAgICAgcHggPSBwcmljZXMuZ2V0KHN5bSkKICAgICAgICAgICAgaWYgcHggaXMgTm9uZToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIHJvdyA9IHsicHJpY2UiOiBweH0KICAgICAgICAgICAgZm9yIGl0diwgYnVuZGxlIGluIG1zZXRzLml0ZW1zKCk6CiAgICAgICAgICAgICAgICBkZiA9IENBQ0hFLmdldCgoc3ltLCBpdHYpKQogICAgICAgICAgICAgICAgaWYgZGYgaXMgTm9uZSBvciBsZW4oZGYpIDwgMjAwOgogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICBkID0gZGYuY29weSgpCiAgICAgICAgICAgICAgICBpID0gbGVuKGQpIC0gMQogICAgICAgICAgICAgICAgZC5sb2NbaSwgImNsb3NlIl0gPSBweCAgICAgICAgICAgICAgICAgICAgICMgcGFydGlhbCBiYXIg6LS05pyA5paw5Lu3CiAgICAgICAgICAgICAgICBkLmxvY1tpLCAiaGlnaCJdID0gbWF4KGQubG9jW2ksICJoaWdoIl0sIHB4KQogICAgICAgICAgICAgICAgZC5sb2NbaSwgImxvdyJdID0gbWluKGQubG9jW2ksICJsb3ciXSwgcHgpCiAgICAgICAgICAgICAgICBYID0gZnQubWFrZV9mZWF0dXJlcyhkKQogICAgICAgICAgICAgICAgcCA9IGZsb2F0KGJ1bmRsZVsibW9kZWwiXS5wcmVkaWN0X3Byb2JhKAogICAgICAgICAgICAgICAgICAgIFguaWxvY1tbLTFdXS5hc3R5cGUobnAuZmxvYXQzMikpWzBdWzFdKQogICAgICAgICAgICAgICAgcm93W2YicF97aXR2fSJdID0gcm91bmQocCwgNCkKICAgICAgICAgICAgd2l0aCBMT0NLOgogICAgICAgICAgICAgICAgYyA9IFNUQVRFWyJjaGciXQogICAgICAgICAgICBjbG9zZXMgPSBDQUNIRS5nZXQoKHN5bSwgIjFtIikpCiAgICAgICAgICAgIGlmIGNsb3NlcyBpcyBub3QgTm9uZSBhbmQgbGVuKGNsb3NlcykgPiA2MToKICAgICAgICAgICAgICAgIGNzID0gY2xvc2VzWyJjbG9zZSJdLnZhbHVlcwogICAgICAgICAgICAgICAgcm93WyJjaGciXSA9IHsiMW0iOiByb3VuZChweCAvIGNzWy0yXSAtIDEsIDUpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiNW0iOiByb3VuZChweCAvIGNzWy02XSAtIDEsIDUpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiMWgiOiByb3VuZChweCAvIGNzWy02MV0gLSAxLCA1KX0KICAgICAgICAgICAgb3V0W3N5bV0gPSByb3cKICAgICAgICB3aXRoIExPQ0s6CiAgICAgICAgICAgIFNUQVRFWyJwcmVkcyJdID0gb3V0CiAgICAgICAgICAgIFNUQVRFWyJ0aWNrIl0gKz0gMQogICAgICAgIHRpbWUuc2xlZXAobWF4KDAuMTUsIDEuMCAtICh0aW1lLnRpbWUoKSAtIHQwKSkpCgoKZGVmIGxvYWRfbW9kZWxzKCk6CiAgICBmb3IgZm4gaW4gc29ydGVkKG9zLmxpc3RkaXIoTU9ERUxTX0RJUikpOgogICAgICAgIGlmIG5vdCBmbi5lbmRzd2l0aCgiLmpvYmxpYiIpOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIG5hbWUsIGl0diA9IGZuWzotN10ucnNwbGl0KCJfIiwgMSkKICAgICAgICBiID0gam9ibGliLmxvYWQob3MucGF0aC5qb2luKE1PREVMU19ESVIsIGZuKSkKICAgICAgICBNT0RFTFMuc2V0ZGVmYXVsdChuYW1lLCB7fSlbaXR2XSA9IGIKICAgIGxvZyhmIm1vZGVscyBsb2FkZWQ6IHtsZW4oTU9ERUxTKX0gc3ltYm9scyIpCgoKY2xhc3MgSChCYXNlSFRUUFJlcXVlc3RIYW5kbGVyKToKICAgIGRlZiBsb2dfbWVzc2FnZShzZWxmLCAqYSk6CiAgICAgICAgcGFzcwoKICAgIGRlZiBkb19HRVQoc2VsZik6CiAgICAgICAgaWYgc2VsZi5wYXRoLnN0YXJ0c3dpdGgoIi9hcGkvc3RhdGUiKToKICAgICAgICAgICAgd2l0aCBMT0NLOgogICAgICAgICAgICAgICAgYm9keSA9IGpzb24uZHVtcHMoeyJ0aWNrIjogU1RBVEVbInRpY2siXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAidXBkYXRlZCI6IFNUQVRFWyJ1cGRhdGVkIl0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInByZWRzIjogU1RBVEVbInByZWRzIl19KS5lbmNvZGUoKQogICAgICAgICAgICBzZWxmLl9zZW5kKGJvZHksICJhcHBsaWNhdGlvbi9qc29uIikKICAgICAgICBlbGlmIHNlbGYucGF0aCBpbiAoIi8iLCAiL2luZGV4Lmh0bWwiKToKICAgICAgICAgICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihIRVJFLCAiZGFzaGJvYXJkLmh0bWwiKSwgInJiIikgYXMgZjoKICAgICAgICAgICAgICAgIHNlbGYuX3NlbmQoZi5yZWFkKCksICJ0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgiKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHNlbGYuc2VuZF9lcnJvcig0MDQpCgogICAgZGVmIF9zZW5kKHNlbGYsIGJvZHksIGN0eXBlKToKICAgICAgICBzZWxmLnNlbmRfcmVzcG9uc2UoMjAwKQogICAgICAgIHNlbGYuc2VuZF9oZWFkZXIoIkNvbnRlbnQtVHlwZSIsIGN0eXBlKQogICAgICAgIHNlbGYuc2VuZF9oZWFkZXIoIkNvbnRlbnQtTGVuZ3RoIiwgc3RyKGxlbihib2R5KSkpCiAgICAgICAgc2VsZi5lbmRfaGVhZGVycygpCiAgICAgICAgc2VsZi53ZmlsZS53cml0ZShib2R5KQoKCmRlZiBtYWluKCk6CiAgICBhcCA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1wb3J0IiwgdHlwZT1pbnQsIGRlZmF1bHQ9ODc4OCkKICAgIGFyZ3MgPSBhcC5wYXJzZV9hcmdzKCkKICAgIGxvYWRfbW9kZWxzKCkKICAgIGZvciB0aCBpbiBbdGlja2VyX2xvb3AsIGNhY2hlX2xvb3AsIGluZmVyX2xvb3BdOgogICAgICAgIHRocmVhZGluZy5UaHJlYWQodGFyZ2V0PXRoLCBkYWVtb249VHJ1ZSkuc3RhcnQoKQogICAgbG9nKGYiZGFzaGJvYXJkOiBodHRwOi8vMTI3LjAuMC4xOnthcmdzLnBvcnR9IikKICAgIFRocmVhZGluZ0hUVFBTZXJ2ZXIoKCIwLjAuMC4wIiwgYXJncy5wb3J0KSwgSCkuc2VydmVfZm9yZXZlcigpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""加密神谕·手机端实时推理服务（iSH）。
+线程：全市场报价轮询 / K线缓存刷新 / 每秒模型推理 / HTTP仪表盘。
+数据源：data-api.binance.vision（REST，国内可达）。"""
+import argparse
+import json
+import os
+import sys
+import threading
+import time
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import joblib
+import numpy as np
+import pandas as pd
+import requests
+
+import features as ft
+
+API = "https://data-api.binance.vision"
+UA = {"User-Agent": "Mozilla/5.0"}
+HERE = os.path.dirname(os.path.abspath(__file__))
+MODELS_DIR = os.environ.get("ORACLE_MODELS", os.path.join(HERE, "models"))
+
+STATE = {"tick": 0, "updated": 0, "prices": {}, "preds": {}, "chg": {}}
+LOCK = threading.Lock()
+MODELS = {}   # sym -> {"1m": bundle, "1s": bundle}
+CACHE = {}    # (sym, interval) -> DataFrame 滚动K线缓存
+
+
+def log(m):
+    print(f"[live] {m}", flush=True)
+
+
+def api_get(path, **params):
+    r = requests.get(API + path, params=params, headers=UA, timeout=15)
+    r.raise_for_status()
+    return r.json()
+
+
+def klines_df(sym, interval, limit):
+    raw = api_get("/api/v3/klines", symbol=sym, interval=interval, limit=limit)
+    df = pd.DataFrame([r[:12] for r in raw], columns=ft.KLINES_COLS)
+    for c in ft.NUM_COLS:
+        df[c] = df[c].astype(np.float32)
+    df["open_time"] = df["open_time"].astype(np.int64)
+    return df
+
+
+def ticker_loop():
+    """每~3秒全市场报价（一次请求拿全部币）。"""
+    while True:
+        try:
+            rows = api_get("/api/v3/ticker/price")
+            with LOCK:
+                STATE["prices"] = {r["symbol"]: float(r["price"]) for r in rows}
+                STATE["updated"] = time.time()
+        except Exception as e:
+            log(f"ticker: {e}")
+        time.sleep(3)
+
+
+def refresh_cache(sym):
+    try:
+        if f"{sym}_1m" in MODELS:
+            CACHE[(sym, "1m")] = klines_df(sym, "1m", 300)
+        if f"{sym}_1s" in MODELS:
+            CACHE[(sym, "1s")] = ft.aggregate_bars(klines_df(sym, "1s", 900), 4)
+    except Exception as e:
+        log(f"cache {sym}: {e}")
+
+
+def cache_loop():
+    syms = list(MODELS.keys())
+    while True:
+        for s in syms:
+            refresh_cache(s)
+            time.sleep(0.15)   # 温和限速：50币约8秒刷完一轮
+        time.sleep(45)
+
+
+def infer_loop():
+    """每秒：缓存K线+最新价补成partial bar → 特征 → 模型 → 概率。"""
+    while True:
+        t0 = time.time()
+        with LOCK:
+            prices = dict(STATE["prices"])
+        out = {}
+        for sym, msets in MODELS.items():
+            px = prices.get(sym)
+            if px is None:
+                continue
+            row = {"price": px}
+            for itv, bundle in msets.items():
+                df = CACHE.get((sym, itv))
+                if df is None or len(df) < 200:
+                    continue
+                d = df.copy()
+                i = len(d) - 1
+                d.loc[i, "close"] = px                     # partial bar 贴最新价
+                d.loc[i, "high"] = max(d.loc[i, "high"], px)
+                d.loc[i, "low"] = min(d.loc[i, "low"], px)
+                X = ft.make_features(d)
+                p = float(bundle["model"].predict_proba(
+                    X.iloc[[-1]].astype(np.float32))[0][1])
+                row[f"p_{itv}"] = round(p, 4)
+            with LOCK:
+                c = STATE["chg"]
+            closes = CACHE.get((sym, "1m"))
+            if closes is not None and len(closes) > 61:
+                cs = closes["close"].values
+                row["chg"] = {"1m": round(px / cs[-2] - 1, 5),
+                              "5m": round(px / cs[-6] - 1, 5),
+                              "1h": round(px / cs[-61] - 1, 5)}
+            out[sym] = row
+        with LOCK:
+            STATE["preds"] = out
+            STATE["tick"] += 1
+        time.sleep(max(0.15, 1.0 - (time.time() - t0)))
+
+
+def load_models():
+    for fn in sorted(os.listdir(MODELS_DIR)):
+        if not fn.endswith(".joblib"):
+            continue
+        name, itv = fn[:-7].rsplit("_", 1)
+        b = joblib.load(os.path.join(MODELS_DIR, fn))
+        MODELS.setdefault(name, {})[itv] = b
+    log(f"models loaded: {len(MODELS)} symbols")
+
+
+class H(BaseHTTPRequestHandler):
+    def log_message(self, *a):
+        pass
+
+    def do_GET(self):
+        if self.path.startswith("/api/state"):
+            with LOCK:
+                body = json.dumps({"tick": STATE["tick"],
+                                   "updated": STATE["updated"],
+                                   "preds": STATE["preds"]}).encode()
+            self._send(body, "application/json")
+        elif self.path in ("/", "/index.html"):
+            with open(os.path.join(HERE, "dashboard.html"), "rb") as f:
+                self._send(f.read(), "text/html; charset=utf-8")
+        else:
+            self.send_error(404)
+
+    def _send(self, body, ctype):
+        self.send_response(200)
+        self.send_header("Content-Type", ctype)
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--port", type=int, default=8788)
+    args = ap.parse_args()
+    load_models()
+    for th in [ticker_loop, cache_loop, infer_loop]:
+        threading.Thread(target=th, daemon=True).start()
+    log(f"dashboard: http://127.0.0.1:{args.port}")
+    ThreadingHTTPServer(("0.0.0.0", args.port), H).serve_forever()
+
+
+if __name__ == "__main__":
+    main()

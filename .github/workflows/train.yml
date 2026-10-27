@@ -1,1 +1,48 @@
-bmFtZTogVHJhaW4gT3JhY2xlCiJvbiI6CiAgd29ya2Zsb3dfZGlzcGF0Y2g6CiAgICBpbnB1dHM6CiAgICAgIHRvcDoKICAgICAgICBkZXNjcmlwdGlvbjogVG9wIE4gc3ltYm9scwogICAgICAgIGRlZmF1bHQ6ICI1MCIKICAgICAgZmFzdDoKICAgICAgICBkZXNjcmlwdGlvbjogZmFzdCBkZWJ1ZyBydW4KICAgICAgICB0eXBlOiBib29sZWFuCiAgICAgICAgZGVmYXVsdDogZmFsc2UKICBzY2hlZHVsZToKICAgIC0gY3JvbjogIjAgNCAqICogMSIgICAjIOavj+WRqOS4gCBVVEMwNDowMCDoh6rliqjph43orq0KICBwdXNoOgogICAgcGF0aHM6IFsidHJhaW4ucHkiLCAiZmVhdHVyZXMucHkiLCAiYmluYW5jZV9kYXRhLnB5Il0Kam9iczoKICB0cmFpbjoKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIHRpbWVvdXQtbWludXRlczogMzMwCiAgICBzdGVwczoKICAgICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY0CiAgICAgIC0gdXNlczogYWN0aW9ucy9zZXR1cC1weXRob25AdjUKICAgICAgICB3aXRoOgogICAgICAgICAgcHl0aG9uLXZlcnNpb246ICIzLjExIgogICAgICAtIG5hbWU6IGRlcHMKICAgICAgICBydW46IHwKICAgICAgICAgIHBpcCBpbnN0YWxsIC0tcXVpZXQgbnVtcHk9PTEuMjYuNCAicGFuZGFzPj0yLjIsPDMiIFwKICAgICAgICAgICAgc2Npa2l0LWxlYXJuPT0xLjMuMiBqb2JsaWIgcmVxdWVzdHMgcHlhcnJvdz09MTQuMC4yCiAgICAgIC0gbmFtZTogdHJhaW4KICAgICAgICBydW46IHwKICAgICAgICAgIEZBU1Q9IiIKICAgICAgICAgIGlmIFsgIiR7eyBpbnB1dHMuZmFzdCB9fSIgPSAidHJ1ZSIgXTsgdGhlbiBGQVNUPSItLWZhc3QiOyBmaQogICAgICAgICAgcHl0aG9uIHRyYWluLnB5IC0tdG9wICIke3sgaW5wdXRzLnRvcCB8fCAnNTAnIH19IiAkRkFTVAogICAgICAtIG5hbWU6IHN1bW1hcnkKICAgICAgICBydW46IHwKICAgICAgICAgIGVjaG8gIiMjIE1ldHJpY3MiID4+ICRHSVRIVUJfU1RFUF9TVU1NQVJZCiAgICAgICAgICBlY2hvICdgYGAnID4+ICRHSVRIVUJfU1RFUF9TVU1NQVJZCiAgICAgICAgICBoZWFkIC0yNSBtZXRyaWNzLmNzdiA+PiAkR0lUSFVCX1NURVBfU1VNTUFSWQogICAgICAgICAgZWNobyAnYGBgJyA+PiAkR0lUSFVCX1NURVBfU1VNTUFSWQogICAgICAgICAgY2F0IG1ldGEuanNvbiA+PiAkR0lUSFVCX1NURVBfU1VNTUFSWQogICAgICAtIHVzZXM6IGFjdGlvbnMvdXBsb2FkLWFydGlmYWN0QHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIG5hbWU6IG9yYWNsZS1tb2RlbHMKICAgICAgICAgIHBhdGg6IHwKICAgICAgICAgICAgbW9kZWxzLwogICAgICAgICAgICBtZXRyaWNzLmNzdgogICAgICAgICAgICBtZXRhLmpzb24KICAgICAgICAgIHJldGVudGlvbi1kYXlzOiAzMAo=
+name: Train Oracle
+"on":
+  workflow_dispatch:
+    inputs:
+      top:
+        description: Top N symbols
+        default: "50"
+      fast:
+        description: fast debug run
+        type: boolean
+        default: false
+  schedule:
+    - cron: "0 4 * * 1"   # 每周一 UTC04:00 自动重训
+  push:
+    paths: ["train.py", "features.py", "binance_data.py"]
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: deps
+        run: |
+          pip install --quiet numpy==1.26.4 "pandas>=2.2,<3" \
+            scikit-learn==1.3.2 joblib requests pyarrow==14.0.2
+      - name: train
+        run: |
+          FAST=""
+          if [ "${{ inputs.fast }}" = "true" ]; then FAST="--fast"; fi
+          python train.py --top "${{ inputs.top || '50' }}" $FAST
+      - name: summary
+        run: |
+          echo "## Metrics" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          head -25 metrics.csv >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat meta.json >> $GITHUB_STEP_SUMMARY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: oracle-models
+          path: |
+            models/
+            metrics.csv
+            meta.json
+          retention-days: 30
